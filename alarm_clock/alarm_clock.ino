@@ -433,6 +433,10 @@ void loop() {
   if (oldLedByte[3] != ledDecode) a++; //plus, if any changes required to control byte
   if (a > 0) updateDisplay(); //if update required - update
 }
+// End of loop():
+
+
+//----- Function definitions -----//
 
 //convert BCD to decimal
 byte bcdToDec (byte val) {
